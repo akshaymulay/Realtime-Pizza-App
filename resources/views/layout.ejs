@@ -8,7 +8,7 @@
 <body>
 <nav class="container mx-auto flex items-center justify-between py-4">
 <div>
-<img src="/img/logo.png" alt="logo">
+<a href="/"><img src="/img/logo.png" alt="logo"></a>
 </div>
 <div>
 <ul class="flex items-center">
@@ -16,7 +16,7 @@
 <li class="ml-6"><a href="#">Offer</a></li>
 <% if(user){%>
 <li class="ml-6">
-	<form id="logout" action="/logout" method="POST">
+	<form class="pt-4" id="logout" action="/logout" method="POST">
 		<a onclick="document.getElementById('logout').submit()" href="#">Logout</a>
 	</form>
 	</li>
