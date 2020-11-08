@@ -11,7 +11,7 @@ function orderController(){
 				}
 				const order=new Order({
 					customerId:req.user._id,
-					items:req.session.cart.items,http://localhost:3000/img/hero-pizza.png
+					items:req.session.cart.items,
 					phone,
 					address
 				})
